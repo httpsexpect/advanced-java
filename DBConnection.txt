@@ -1,0 +1,19 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class DBConnection{
+	public static void main(String[] args){
+		String url = "jdbc:mysql://127.0.0.1:3306/test";
+		String user = "root";
+		String password = "";
+		try{
+			Connection con = DriverManager.getConnection(url , user , password);
+			if(conn!=null){
+				System.out.println("Connected to the driver");
+			}else{
+				System.out.println("Failed to make a connection");
+			}
+		}
+	}
+}
