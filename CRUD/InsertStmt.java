@@ -75,13 +75,13 @@ public class InsertStmt {
     }
 
     public static void main(String[] args) {
-        CreateUser("Sujal awale", "Shankhamul");
-        CreateUser("Bijen", "etaii katai");
-        CreateUser("Raj", "clg");
-        ReadUsers();
-        UpdateUser(9, "Sujal awale", "kathmandu");
-        deleteUser(10);
-        ReadUsers();
+        CreateUser("Ram", "ktm");
+        CreateUser("Gari", "patan");
+        CreateUser("Sita", "aga");
+        // ReadUsers();
+        // UpdateUser(9, "Sujal awale", "kathmandu");
+        // deleteUser(10);
+        // ReadUsers();
 
     }
 }
